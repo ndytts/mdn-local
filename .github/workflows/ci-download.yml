@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        locale: [en-US, zh-CN]
+        locale: [en-US, es]
     steps:
       - uses: actions/checkout@v7
 
